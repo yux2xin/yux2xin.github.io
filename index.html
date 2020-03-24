@@ -1,2 +1,59 @@
-<p>你好，我是yux2xin</p>
-<p>欢迎你来看我的网站</p>
+<!DOCTYPE html>
+<html>
+<head>
+<title>yux2xin</title>
+</head>
+<body>
+  <div class="sidenav">
+  <a href="#about">关于我</a>
+  <a href="#eassay">随笔</a>
+  <a href="#photo">摄影</a>
+  <a href="#translate">翻译和转载</a>
+  </div>
+  <div class="main">
+  <h2>关于我</h2>
+  <p>我是yux2xin</p>
+  </div>
+</body>
+  
+<style>
+  body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #505050;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #00CCFF;
+}
+
+.main {
+    margin-left: 160px; /* 与sidenav的宽度相同 */
+    font-size: 28px; /* 字体放大，让页面可滚动 */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  </style>
+</html>
